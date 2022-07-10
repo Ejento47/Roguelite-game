@@ -162,7 +162,7 @@ def main():
         
         if exit:
             if game_state in (GameStates.SHOW_INVENTORY, GameStates.DROP_INVENTORY):
-                game_state == previous_game_state
+                game_state = previous_game_state
             else:
                 return True
 
